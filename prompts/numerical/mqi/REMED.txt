@@ -1,0 +1,8 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Based on the classroom transcript, rate the teacher's degree of remediation of student errors and difficulties on a scale of 1-3 (low-high). This means that the teacher gets at the root of student misunderstanding, rather than repairing just the procedure or fact. This is more than a simple correction of a student mistake.
+
+Rating (only specify a number between 1-3):

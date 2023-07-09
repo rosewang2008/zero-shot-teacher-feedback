@@ -1,0 +1,14 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Please do the following.
+1. Provide up to 5 good examples of the teacher's behavior management. Indicate the line number. Behavior management encompasses the teacher's use of effective methods to encourage desirable behavior and prevent and re-direct misbehavior.
+2. Provide up to 5 bad examples of the teacher's behavior management.
+
+Format your answer as:
+Good examples (indicate the line number too):
+Bad examples (indicate the line number too):
+
+Good examples:

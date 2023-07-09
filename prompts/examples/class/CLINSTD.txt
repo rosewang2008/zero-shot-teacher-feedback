@@ -1,0 +1,14 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Please do the following.
+1. Provide up to 5 good examples of the teacher's instructional dialogue. Indicate the line number. Instructional dialogue captures the purposeful use of content-focused discussion among teachers and students that is cumulative, with the teacher supporting students to chain ideas together in ways that lead to deeper understanding of content. Students take an active role in these dialogues and both the teacher and students use strategies that facilitate extended dialogue.
+2. Provide up to 5 bad examples of the teacher's instructional dialogue.
+
+Format your answer as:
+Good examples (indicate the line number too):
+Bad examples (indicate the line number too):
+
+Good examples:

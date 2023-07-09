@@ -1,0 +1,13 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Based on the classroom transcript, rate the instructional dialogue of the teacher on a scale of 1-7 (low-high). Instructional dialogue captures the purposeful use of content-focused discussion among teachers and students that is cumulative, with the teacher supporting students to chain ideas together in ways that lead to deeper understanding of content. Students take an active role in these dialogues and both the teacher and students use strategies that facilitate extended dialogue.
+
+Explanation of ratings:
+1, 2: There are no or few discussions in class or discussions unrelated to content, class is dominated by teacher talk, the teacher and students ask closed questions or rarely acknowledge/repeat/extend others' comments.
+3, 4, 5: There are occasional brief content-based discussions in class among teachers and students, the class is mostly dominated by teacher talk, the teacher and students sometimes use facilitation strategies to encourage more elaborated dialogue.
+6, 7: There are frequent, content-driven discussions in the class between teachers and students, class dialogues are distributed amongst the teacher and the majority of students, the teacher and students frequently use facilitation strategies that encourage more elaborated dialogue.
+
+Rating (only specify a number between 1-7):

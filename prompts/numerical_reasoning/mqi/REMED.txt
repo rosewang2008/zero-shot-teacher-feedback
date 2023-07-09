@@ -1,0 +1,14 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Please do the following.
+1. Think step-by-step how you would rate the teacher's degree of remediation of student errors and difficulties on a scale of 1-3 (low-high). This means that the teacher gets at the root of student misunderstanding, rather than repairing just the procedure or fact. This is more than a simple correction of a student mistake.
+2. Provide your rating as a number between 1 and 3.
+
+Format your answer as:
+Reasoning:
+Rating (only specify a number between 1-3):
+
+Reasoning:

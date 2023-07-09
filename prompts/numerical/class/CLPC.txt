@@ -1,0 +1,8 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Based on the classroom transcript, rate the positive climate of the classroom on a scale of 1-7 (low-high). Positive climate reflects the emotional connection and relationships among teachers and students, and the warmth, respect, and enjoyment communicated by verbal and non-verbal interactions.
+
+Rating (only specify a number between 1-7):

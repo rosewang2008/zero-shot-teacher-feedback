@@ -1,0 +1,14 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Please do the following.
+1. Provide up to 5 good examples of the classroom's positive climate. Indicate the line number. Positive climate reflects the emotional connection and relationships among teachers and students, and the warmth, respect, and enjoyment communicated by verbal and non-verbal interactions.
+2. Provide up to 5 bad examples of the classroom's positive climate.
+
+Format your answer as:
+Good examples (indicate the line number too):
+Bad examples (indicate the line number too):
+
+Good examples:

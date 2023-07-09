@@ -1,0 +1,8 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Based on the classroom transcript, rate the behavior management of the teacher on a scale of 1-7 (low-high). Behavior management encompasses the teacher's use of effective methods to encourage desirable behavior and prevent and re-direct misbehavior.
+
+Rating (only specify a number between 1-7):

@@ -1,0 +1,14 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Please do the following.
+1. Provide up to 5 good examples of the students' mathematical questioning and reasoning. Indicate the line number. Student mathematical questioning and reasoning means that students engage in mathematical thinking. Examples include but are not limited to: Students provide counter-claims in response to a proposed mathematical statement or idea, ask mathematically motivated questions requesting explanations, make conjectures about the mathematics discussed in the lesson, etc.
+2. Provide up to 5 bad examples of the students' mathematical questioning and reasoning.
+
+Format your answer as:
+Good examples (indicate the line number too):
+Bad examples (indicate the line number too):
+
+Good examples:

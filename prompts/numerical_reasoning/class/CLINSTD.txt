@@ -1,0 +1,14 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Please do the following.
+1. Think step-by-step how you would rate the instructional dialogue of the teacher on a scale of 1-7 (low-high). Instructional dialogue captures the purposeful use of content-focused discussion among teachers and students that is cumulative, with the teacher supporting students to chain ideas together in ways that lead to deeper understanding of content. Students take an active role in these dialogues and both the teacher and students use strategies that facilitate extended dialogue.
+2. Provide your rating as a number between 1 and 7.
+
+Format your answer as:
+Reasoning:
+Rating (only specify a number between 1-7):
+
+Reasoning:

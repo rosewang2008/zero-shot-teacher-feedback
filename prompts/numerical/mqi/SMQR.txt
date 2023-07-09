@@ -1,0 +1,8 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Based on the classroom transcript, rate the degree of student mathematical questioning and reasoning on a scale of 1-3 (low-high). Student mathematical questioning and reasoning means that students engage in mathematical thinking. Examples include but are not limited to: Students provide counter-claims in response to a proposed mathematical statement or idea, ask mathematically motivated questions requesting explanations, make conjectures about the mathematics discussed in the lesson, etc.
+
+Rating (only specify a number between 1-3):

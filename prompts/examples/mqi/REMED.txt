@@ -1,0 +1,14 @@
+Consider the following classroom transcript.
+
+Transcript:
+{transcript}
+
+Please do the following.
+1. Provide up to 5 good examples of the teacher's remediation of student errors and difficulties. Indicate the line number. This means that the teacher gets at the root of student misunderstanding, rather than repairing just the procedure or fact. This is more than a simple correction of a student mistake.
+2. Provide up to 5 bad examples of the teacher's remediation of student errors and difficulties.
+
+Format your answer as:
+Good examples (indicate the line number too):
+Bad examples (indicate the line number too):
+
+Good examples:
