@@ -1,0 +1,544 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- ======================================================================= -->
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<style type="text/css">
+  body {
+    font-family: "Crimson Text","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+    font-size:18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  pre {
+    background-color: #f6f8fa;
+    padding: 16px;
+  }
+
+  code {
+    font-family: "SFMono-Regular","Consolas","Liberation Mono","Menlo",monospace;
+    overflow: scroll;
+  }
+
+  h1 {
+    font-family: "Source Sans Pro";
+    font-weight:300;
+  }
+
+  div {
+    max-width: 95%;
+    margin:auto;
+    padding: 10px;
+  }
+
+  .table-like {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    padding: 20px;
+  }
+
+  video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+
+  img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.rounded {
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  a:link,a:visited
+  {
+    color: #1367a7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #208799;
+  }
+
+  td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+            15px 15px 0 0px #fff, /* The fourth layer */
+            15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+            20px 20px 0 0px #fff, /* The fifth layer */
+            20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+            25px 25px 0 0px #fff, /* The fifth layer */
+            25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+
+  .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+
+  .vert-cent {
+    position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  hr
+  {
+    border: 0;
+    height: 1px;
+    max-width: 1100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  #authors td {
+    padding-bottom:5px;
+    padding-top:30px;
+  }
+</style>
+<!-- ======================================================================= -->
+
+<!-- Start : Google Analytics Code -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64069893-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-64069893-4');
+</script> -->
+<!-- End : Google Analytics Code -->
+
+<script type="text/javascript" src="resources/hidebib.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+<head>
+<div max-width=100%>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="57x57" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png" />
+
+  <link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-192x192.png" sizes="192x192" />
+  <link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-128.png" sizes="128x128" />
+  <link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-16x16.png" sizes="16x16" />
+
+  <link rel="mask-icon" href="//www-media.stanford.edu/assets/favicon/safari-pinned-tab.svg" color="#ffffff">
+  <meta name="application-name" content="Stanford University"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="//www-media.stanford.edu/assets/favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="//www-media.stanford.edu/assets/favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="//www-media.stanford.edu/assets/favicon/mstile-150x150.png" />
+  <meta name="msapplication-square310x310logo" content="//www-media.stanford.edu/assets/favicon/mstile-310x310.png" />
+  <title>Is ChatGPT a Good Teacher Coach? Measuring Zero-Shot Performance For Scoring and Providing Actionable Insights on Classroom Instruction</title>
+<meta name="HandheldFriendly" content="True" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://rosewang2008.github.io/" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+<meta property="og:site_name" content="SIGHT" />
+<meta property="og:type" content="video.other" />
+<meta property="og:title" content="Is ChatGPT a Good Teacher Coach? Measuring Zero-Shot Performance For Scoring and Providing Actionable Insights on Classroom Instruction" />
+<meta property="og:description" content="Rose E. Wang and Dorottya Demszky. Is ChatGPT a Good Teacher Coach? Measuring Zero-Shot Performance For Scoring and Providing Actionable Insights on Classroom Instruction. 2020." />
+<meta property="og:url" content="https://rosewang2008.github.io/" />
+<meta property="og:image" content="https://rosewang2008.github.io/resources/blue.svg" />
+
+<meta property="article:publisher" content="https://rosewang2008.github.io/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Is ChatGPT a Good Teacher Coach? Measuring Zero-Shot Performance For Scoring and Providing Actionable Insights on Classroom Instruction" />
+<meta name="twitter:description" content="Rose E. Wang and Dorottya Demszky. Is ChatGPT a Good Teacher Coach? Measuring Zero-Shot Performance For Scoring and Providing Actionable Insights on Classroom Instruction. 2020." />
+<meta name="twitter:url" content="https://rosewang2008.github.io/" />
+<meta name="twitter:image" content="https://rosewang2008.github.io/resources/red.png" />
+<meta property="og:image:width" content="1600" />
+<meta property="og:image:height" content="900" />
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<!-- TODO -->
+<meta name="twitter:player" content="" />
+<meta name="twitter:player:width" content="640" />
+<meta name="twitter:player:height" content="360" />
+</head>
+
+<body>
+
+    <br>
+    <center><span style="font-size:44px;font-weight:bold;font-family:Source Sans Pro;">Is ChatGPT a Good Teacher Coach? <br/> Measuring Zero-Shot Performance For Scoring and  <br/>Providing Actionable Insights on Classroom Instruction</span></center><br/>
+    
+    <div class="table-like" style="justify-content:space-evenly;max-width:900px;margin:auto;">
+        <div><center><span style="font-size:25px"><a href="https://cs.stanford.edu/~rewang" target="_blank">Rose E. Wang</a></span></center>
+        <center><span style="font-size:20px">rewang@cs.stanford.edu</span></center>
+        <center><span style="font-size:25px">Stanford</span></center>
+        </div>
+
+        <div><center><span style="font-size:25px"><a href="https://www.dorademszky.com/" target="_blank">Dorottya Demszky</a></span></center>
+        <center><span style="font-size:20px">ddemszky@stanford.edu</span></center>
+        <center><span style="font-size:25px">Stanford</span></center>
+        </div>
+        <center><span style="font-size:25px">Proceedings of Innovative Use of NLP for Building Educational Applications (BEA), 2023</span></center>
+    </div>
+
+    <div class="table-like" style="justify-content:space-evenly;max-width:700px;margin:auto;padding:5px">
+      <div><center><span style="font-size:28px"><a href="https://arxiv.org/abs/2306.03090">[Paper]</a></span></center></div>
+      <div><center><span style="font-size:28px"><a href='https://github.com/rosewang2008/zero-shot-teacher-feedback'>[Code]</a></span></center> </div>
+      <div><center><span style="font-size:28px"><a href='https://www.youtube.com/watch?v=M729eZ8pFOU&ab_channel=RoseWang'>[Video]</a></span></center> </div>
+    </div>
+
+    <center>
+    <iframe width="768" height="432" src="https://www.youtube.com/embed/Yt-2jLJLKjI" allowfullscreen></iframe>
+    <br>
+
+    <div style="width:800px; margin:0 auto" align="justify">
+      <p><b>Abstract.</b> Coaching, which involves classroom observation and expert feedback, is a widespread and fundamental part of teacher training. However, the majority of teachers do not have access to consistent, high quality coaching due to limited resources and access to expertise. We explore whether generative AI could become a cost-effective complement to expert feedback by serving as an automated teacher coach. In doing so, we propose three teacher coaching tasks for generative AI: (A) scoring transcript segments based on classroom observation instruments, (B) identifying highlights and missed opportunities for good instructional strategies, and (C) providing actionable suggestions for eliciting more student reasoning. We recruit expert math teachers to evaluate the zero-shot performance of ChatGPT on each of these tasks for elementary math classroom transcripts. Our results reveal that ChatGPT generates responses that are relevant to improving instruction, but they are often not novel or insightful. For example, 82% of the model’s suggestions point to places in the transcript where the teacher is already implementing that suggestion. Our work highlights the challenges of producing insightful, novel and truthful feedback for teachers while paving the way for future research to address these obstacles and improve the capacity of generative AI to coach teachers.
+    </p>
+    </div>
+    <br><hr>
+
+    <center><h1>Teacher Coaching Tasks for Generative AI</h1></center>
+    <div style="width:800px; margin:0 auto" align="justify">
+      <a href="assets/fig1.png"><img src="assets/fig1.png" width="800px" padding="10px"></img></a>
+      <center><span style="font-size:15px">Illustration of our three teacher coaching tasks.</span></center>
+      <p>
+        Can ChatGPT help instructional coaches and teachers by providing effective feedback, like generating classroom observation rubric scores and helpful pedagogical suggestions? 
+      </p>
+      <p>
+        To answer this question, we propose the three teacher coaching tasks for generative AI, explained below.
+        Each of these tasks takes a classroom transcript and outputs a score or natural language feedback.
+        We evaluate the zero-shot performance of ChatGPT (gpt-3.5-turbo-0301) on each of these tasks with inter-rater reliability and evaluations from experienced math teachers.
+        Below we summarize the results on each of the tasks.
+      </p>
+      <p>Here is an example of a classroom transcript:</p>
+      <div class="layered-paper-big">
+        <pre align=left style="font-size:14px" width=800px><code>[...]
+<b>teacher:</b> Well, it is division.  Take my word for it.  I’ll write them bigger next 
+    time. Raise your hand to tell me, what should I do first?  Student H, what 
+    are you going to do first?
+<b>student:</b> What’s in the parenthesis.
+<b>teacher:</b> So you’re going to do 30 minus 6 first?  And what did you get?
+<b>student:</b>  23.
+<b>teacher:</b>  Check your subtraction.
+<b>student:</b>  I got 24.
+<b>teacher:</b>  You still got that?  What’s 10 minus 6?
+<b>student:</b>  4.
+<b>teacher:</b>  So 30 minus 6 can’t be 23.  It has to be—
+<b>multiple students:</b>  24.
+<b>teacher:</b>  Now look.  When I saw we do it like this – this is what we did last week.
+    24 goes right in the middle of those parenthesis.  Next I have to bring down 
+    what I didn’t use. What is 24 divided by 3?
+<b>student:</b>  8.
+<b>teacher:</b>  Your final answer should have been 8.  Does that make sense?
+<b>multiple students:</b>  Yes.
+<b>teacher:</b>  Do you want to do one more example?
+<b>multiple students:</b>  Yes.
+<b>multiple students:</b>  No.
+<b>teacher:</b>  We’re going to do one more.  I’m going to make it a hard one.  You have
+    to follow the steps in the order of operations to get it right.  If I do what I 
+    think is easiest first, the answer is going to end up different.  Here’s a hard 
+    one.  Ready?  Copy and complete this one.  This has more than three steps.  It 
+    is 5 times 23 minus 18 plus 7.  It looks really hard, but if I follow my steps, 
+    it won’t be so bad.  You have to make sure the parenthesis are in the right 
+    spot. For those who are stuck, raise your hand and tell me what should they do 
+    first and why.  Student M? What are you doing first?
+<b>student:</b>  5 times—
+<b>teacher:</b>  Is that your order of operations?  Is that what you should do first?  
+    What’s in parenthesis?
+<b>student:</b>  23 minus 18.
+<b>teacher:</b>  Do 23 minus 18 first.  You’ll find out.  Remember to allow everyone 
+    to work. You are quiet.  If you’re wondering whether you’re right or wrong, 
+    you’ll see in just a minute when we do it together.  Where did you write it?  
+    Look at the problem that’s on the board.  It’s a different one now.  Watch how 
+    it looks when you solve it.  Student H, here’s how it looks when you solve it. 
+    The first step you said was to do 23 minus 18, which was what?
+[...]</code></pre>
+    </div>
+    <div style="padding:20px">
+      <center><h2>Task A. Score a transcript segment for items derived from classroom observation instruments</h2></center>
+      <p>
+        We zero-shot prompt ChatGPT to predict observation scores according to the two standard classroom observation instruments: the Classroom Assessment Scoring System (CLASS) (Pianta et al., 2008) and  Mathematical Quality Instruction (MQI) (Hill et al., 2008) instruments.
+      </p>
+      <p>
+        <b>CLASS</b> assesses classroom quality in PK-12 classrooms along three main dimensions: Emotional Support, Classroom Organization and Instructional Support. 
+        Each of these dimensions is measured by multiple observation items; we choose one item from each dimension to provide a proof of concept. 
+        Each item is scored on a scale of 1-7 where 1 is low and 7 is high. 
+        <ul>
+            <li>
+                For Emotional Support, we focus on the POSITIVE CLIMATE (CLPC) item, which measures the enjoyment and emotional connection that teachers have with students and that students have with their peers. 
+            </li>
+            <li>
+                For Classroom Organization, we focus on the BEHAVIOR MANAGEMENT (CLBM) item which measures how well the teachers encourage positive behaviors and monitor, prevent and redirect misbehavior. 
+            </li>
+            <li>
+                For Instructional Support, we focus on the INSTRUCTIONAL DIALOGUE (CLINSTD) dimension which measures how the teacher uses structured, cumulative questioning and discussion to guide and prompt students’ understanding of content. 
+            </li>
+        </ul>
+      </p>
+      <p>
+        <b>MQI</b> assesses the mathematical quality of instruction along four dimensions: Richness of the Mathematics, Working with Students and Mathematics, Errors and Imprecision, and Student Participation in Meaning-Making and Reasoning. Similar to CLASS, each of these dimensions is measured by several observation items and we select one from each. 
+        These items are scored on scale of 1-3 where 1 is low and 3 is high. 
+        <ul>
+            <li>
+                For Richness of the Mathematics, we focus on the EXPLANATIONS (EXPL) dimension which evaluates the quality of the teacher’s mathematical explanations. 
+            </li>
+            <li>
+                For Working with Students and Mathematics, we focus on the REMEDIATION OF STUDENT ERRORS AND DIFFICULTIES (REMED) which measures how well the teacher remediates student errors and difficulties. 
+            </li>
+            <li>
+                For Errors and Imprecision, we focus on the IMPRECISION IN LANGUAGE OR NOTATION (LANGIMP) dimension which measures the teacher’s lack of precision in mathematical language or notation. 
+            </li>
+            <li>
+                For Student Participation in Meaning-Making and Reasoning, we focus on the STUDENT MATHEMATICAL QUESTIONING AND REASONING (SMQR) dimension which measures how well students engage in mathematical thinking. 
+            </li>
+        </ul>
+      </p>
+      <p> 
+        We prompt using various techniques: 
+        <ul>
+            <li>
+                direct answer (DA): prompting to directly predict a score with 1-2 sentence summary of the item
+            </li>
+            <li>
+                direct answer with description (DA+): same as DA but with additional one-sentence descriptions for low/mid/high ratings
+            </li>
+            <li>
+                reasoning then answer (RA): same as DA, with asking the model to provide reasoning before predicting a score.
+            </li>
+        </ul>
+      </p>
+      <p>
+        <b>Example prompt:</b>
+      </p>
+      <a href="assets/example_prompt_task_a.png"><img src="assets/example_prompt_task_a.png" width="800px"></img></a>
+      <center><span style="font-size:15px">
+        The top box shows an example of task A for directly predicting the scores (DA) for behavior management (CLBM). The bottom box shows the model’s output. For space reasons, the full transcript has been cut out, indicated by <b>[...]</b>.
+      </span></center>
+      <center><h3>Task A Takeaways</h3></center>
+      <a href="assets/results/task_a_irr.png"><img src="assets/results/task_a_irr.png" width="400px"></img></a>
+
+    <ul>
+        <li>
+            The model has low correlation with human ratings.
+        </li>
+        <li>
+            Adding more information to the prompt like reasoning (RA) did not improve the correlation score—in some cases making the score worse, such as for CLBM.
+        </li>
+    </ul>
+    </div>
+
+    <div style="padding:20px">
+      <center><h2>Task B. Identify highlights and missed opportunities for good instructional strategies</h2></center>
+      <p>
+        We prompt the model to identify highlights and missed opportunities per observation item in CLASS and MQI.
+      </p>
+      <p>
+        To evaluate the model's responses, we ask teachers to rate each example along:
+        <ul>
+            <li>
+                Relevance: Is the model’s response relevant to the CLASS or MQI item of interest?
+            </li>
+            <li>
+                Faithfulness: Does the model’s response have an accurate interpretation of the events that occur in the classroom transcript?
+            </li>
+            <li>
+                Insightfulness: Does the model’s response reveal insights beyond a literal restatement of what happens in the transcript?
+            </li>
+        </ul>
+      </p>
+      <p>
+        <b>
+            Example prompt:
+        </b>
+      </p>
+      <a href="assets/example_prompt_task_b.png"><img src="assets/example_prompt_task_b.png" width="800px"></img></a>
+      <center><span style="font-size:15px">
+        The top box shows an example of task B for identifying highlights and missed opportunities on the teacher’s behavior management (CLBM). The bottom box shows the model’s output. For space reasons, the prompt and generations are abbreviated in this example, indicated by <b>[...]</b>.
+      </span></center>
+
+      <center><h3>Task B Takeaways</h3></center>
+      <a href="assets/results/task_b_class.png">
+        <img src="assets/results/task_b_class.png" width="400px"></img>
+        <img src="assets/results/task_b_mqi.png" width="400px"></img>
+    </a>
+     <a href="assets/results/task_b_mqi.png">
+    </a>
+
+    <ul>
+        <li>
+            Teachers generally did not find the model responses insightful or relevant to what was being asked for both instruments.
+        </li>
+        <li>
+            The MQI results are worse than the CLASS results across all evaluation dimensions.
+        </li>
+        <li>
+            This suggests that the model performs relatively worse on interpreting and evaluating technical aspects of math instruction quality.
+        </li>
+    </ul>
+    </div>
+
+    <div style="padding:20px">
+      <center><h2>Task C. Provide actionable suggestions for eliciting more student reasoning</h2></center>
+
+      <p>
+        We prompt the model to generate suggestions for eliciting more student reasoning.
+      </p>
+      <p>
+        To evaluate the model's responses, we ask teachers to rate each example along:
+        <ul>
+            <li>
+                Relevance: Is the model’s response relevant to eliciting more student reasoning?
+            </li>
+            <li>
+                Faithfulness: Does the model’s response have the right interpretation of the events that occur in the
+classroom transcript?
+            </li>
+            <li>
+                Actionability: Is the model’s suggestion something that the teacher can easily translate into practice?
+            </li>
+            <li>
+                Novelty: Is the model suggesting something that the teacher already does or is it a novel suggestion?
+            </li>
+        </ul>
+      </p>
+      <p>
+        <b>
+            Example prompt:
+        </b>
+      </p>
+      <a href="assets/example_prompt_task_c.png"><img src="assets/example_prompt_task_c.png" width="800px"></img></a>
+      <center><span style="font-size:15px">
+        Example on task C for providing suggestions on eliciting more student mathematical reasoning in the classroom. The model’s output is italicized. For space reasons, the prompt and generations are abbreviated in this example, indicated by <b>[...]</b>.
+      </span></center>
+
+      <center><h3>Task C Takeaways</h3></center>
+      <a href="assets/results/task_c.png"><img src="assets/results/task_c.png" width="400px"></img></a>
+
+    <ul>
+        <li>
+            The model produces redundant suggestions, repeating what the teacher already does in the transcript 82% of the time.
+        </li>
+        <li>
+            This may be due to ChatGPT not seeing examples of instructional feedback, given the scarcity of publicly available data in this area.
+        </li>
+        <li>
+            Thus, it reproduces patterns in the text and does not produce out-of-the-box expert suggestions.
+        </li>
+        <li>
+            Here is an example of a model suggestion that is considered <b>redundant</b>, but is otherwise faithful, relevant and actionable: 
+            <a href="assets/results/task_c_model_example.png"><img src="assets/results/task_c_model_example.png" width="700px"></img></a>
+            <a href="assets/results/task_c_human_example.png"><img src="assets/results/task_c_human_example.png" width="700px"></img></a>
+        </li>
+    </ul>
+    </div>
+
+    <center><h2>For more details, please check out our paper linked below!</h2></center>
+    <br><hr>
+
+    <center><h1>Paper and BibTeX</h1></center>
+    <table align=center width=800px>
+      <tr>
+      <td width=200px align=left>
+        <pre align=left><code>@inproceedings{wang2023chatgpt,
+          title={Is ChatGPT a Good Teacher Coach? Measuring Zero-Shot Performance 
+For Scoring and Providing Actionable Insights on Classroom Instruction},
+          author={Wang, Rose E and Demszky, Dorottya},
+          year={2023},
+          month = jun,
+          booktitle = {18th Workshop on Innovative Use of NLP for Building 
+Educational Applications},
+          month_numeric = {6}
+        }</code></pre>
+      </td>
+    </table>
+    <div class="table-like">
+      <span style="font-size:28px"><a href="https://arxiv.org/abs/2306.03090">[ArXiv]</a></span>
+    </div>
+  <br><hr>
+    <center id="acknowledgements"><h1>Acknowledgements</h1></center>
+      <p>
+        This website is adapted from
+        <a href="https://ezliu.github.io/dream/">this website</a>, which was adapted from
+        <a href="https://orybkin.github.io/video-gcp/">this website</a>, which was
+        in turn adapted from
+        <a href="https://pathak22.github.io/modular-assemblies/">this website</a>.
+        Feel free to use this website as a template for your own projects by referencing this!
+      </p>
+
+      <p>
+        Icons used in some of the above figures were made by Freepik,
+        ThoseIcons, dDara, Pixel perfect, ThoseIcons, mynamepong, Icongeek26,
+        and Vitaly Gorbachev from
+        <a href="https://www.flaticon.com">flaticon.com</a>.
+      </p>
+  </table>
+</div>
+</body>
+</html>

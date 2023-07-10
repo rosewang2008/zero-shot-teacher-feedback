@@ -1,8 +1,0 @@
-Consider the following classroom transcript.
-
-Transcript:
-{transcript}
-
-Based on the classroom transcript, rate the teacher's imprecision in language or notation on a scale of 1-3 (low-high). The teacher's imprecision in language or notation refers to problematic uses of mathematical language or notation. For example, errors in notation (eg. mathematical symbols), in mathematical language (eg. technical mathematical terms like "equation") or general language (eg. explaining mathematical ideas or procedures in non-technical terms). Do not count errors that are noticed and corrected within the segment.
-
-Rating (only specify a number between 1-3):

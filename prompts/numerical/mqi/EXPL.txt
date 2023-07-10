@@ -1,8 +1,0 @@
-Consider the following classroom transcript.
-
-Transcript:
-{transcript}
-
-Based on the classroom transcript, rate the teacher's mathematical explanations on a scale of 1-3 (low-high). Mathematical explanations focus on the why, eg. why a procedure works, why a solution method is (in)appropriate, why an answer is true or not true, etc. Do not count 'how', eg. description of the steps, or definitions unless meaning is also attached.
-
-Rating (only specify a number between 1-3):
