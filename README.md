@@ -1,6 +1,6 @@
 # Is ChatGPT a Good Teacher Coach? Measuring Zero-Shot Performance For Scoring and Providing Actionable Insights on Classroom Instruction
 
-[Project Page](), [Paper](https://arxiv.org/pdf/2306.03090.pdf), [Poster](assets/poster.pdf)
+[Project Page](https://rosewang2008.github.io/zero-shot-teacher-feedback/), [Paper](https://arxiv.org/pdf/2306.03090.pdf), [Poster](assets/poster.pdf)
 
 Authors: Rose E. Wang and Dorottya Demszky
 
