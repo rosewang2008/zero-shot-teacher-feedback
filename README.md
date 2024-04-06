@@ -2,9 +2,13 @@
 
 [Project Page](https://rosewang2008.github.io/zero-shot-teacher-feedback/), [Paper](https://arxiv.org/pdf/2306.03090.pdf), [Poster](assets/poster.pdf)
 
-Authors: Rose E. Wang and Dorottya Demszky
+**Authors:** Rose E. Wang and Dorottya Demszky
 
 In the Proceedings of Innovative Use of NLP for Building Educational Applications 2023
+
+<p style="color:red">
+    <b> Selected as the Ambassador Paper for BEA 2023! 🎉 </b>  To be presented at AIED 2024.
+</p>
 
 If you find our work useful or interesting, please consider citing it! 
 
